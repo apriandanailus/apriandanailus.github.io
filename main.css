@@ -1,73 +1,73 @@
 body {
-				background-color: #ffcc00;
-				margin: 60px 60px 60px 60px;
-				background: url(bg.jpg);
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size: cover;
-			}
-			
-			.tagline {
-	color: #231900;
-	font-family: 'Open Sans';
-	font-size: 80px;
-	font-weight: 800;
-	letter-spacing: -2px;
-	line-height: 80px; 
-	margin-bottom: 30px;
-	text-transform: uppercase;
+    background-color: #ffcc00;
+    margin: 60px 60px 60px 60px;
+    background: url(https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2108&q=80);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
 
-	
-	
+.tagline {
+    color: #231900;
+    font-family: 'Open Sans';
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+
 }
 
 .fullwidth {
-	max-height: 100%;
+    max-height: 100%;
 
 }
 
 p {
-	color: #231900;
-	font-family: 'Crimson Text';
-	font-size: 34px;
-	font-weight: 500;
-	line-height: 48px;
-	margin-bottom: 48px;
-	max-width: 650px;
-	
+    color: #231900;
+    font-family: 'Open Sans';
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 48px;
+    max-width: 650px;
+
 }
 
 a {
-	color: #231900;	
+    color: #231900;
 }
 
 a:hover {
-	
+
 }
-			
+
 @media only screen and (max-width: 1000px) {
     .tagline {
-      font-size: 60px;
-			letter-spacing: -2px;
-			line-height: 60px;
-			
+        font-size: 60px;
+        letter-spacing: -2px;
+        line-height: 60px;
+
     }
-	
-	.sub-text {
-		 font-size: 35px;
-			line-height: 35px;
-	}
+
+    .sub-text {
+        font-size: 35px;
+        line-height: 35px;
+    }
 }
-			
+
 @media only screen and (max-width: 599px) {
     .tagline {
-      font-size: 40px;
-			letter-spacing: -2px;
-			line-height: 40px;
-			
+        font-size: 40px;
+        letter-spacing: -2px;
+        line-height: 40px;
+
     }
-		.sub-text {
-			 font-size: 25px;
-				line-height: 35px;
-		}
+
+    .sub-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }			
